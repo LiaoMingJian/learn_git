@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(void) {
+	int i=3;
+	while(cin>>i) {
+	cout <<"result"<<i;
+	i--;	
+	}
+	cout << endl;
+	system("pause");
+	return 0;
+}
